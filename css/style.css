@@ -1,0 +1,1196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.Container {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.Section-Container {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.Nav {
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Nav-Text {
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    color: white;
+}
+
+.Nav-List {
+    display: flex;
+    gap: 20px;
+}
+
+.Nav-Link {
+    text-decoration: none;
+    color: white;
+}
+
+.List-Element {
+    list-style: none;
+    font-size: 14px;
+}
+
+.Section1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/images/notgeneric_bg3.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.Section1-Text-Box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100% - 100px);
+    text-align: center;
+    gap: 20px;
+}
+
+
+.Section1-Header-Text {
+    font-size: 80px;
+    font-weight: 700;
+
+    color: white;
+
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.Section1-Say-Hello-Text {
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: white;
+}
+
+.Section1-Explore-Btn {
+    background-color: #2250fc;
+    color: white;
+    display: inline-block;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 12px;
+    font-weight: 600;
+    height: 40px;
+    width: 150px;
+}
+
+.Section2 {
+
+    width: 100%;
+}
+
+.Section2-Text-Box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 85px;
+}
+
+.Section2-Responsive-Photo {
+    vertical-align: middle;
+    width: 100%;
+}
+
+.Responsive-Box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Section2-Header-Text {
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.Same-Header-Font-Size {
+    font-size: 40px;
+}
+
+.Same-Blue-Border {
+    width: 100px;
+
+    border-bottom: solid 2px #2250fc;
+}
+
+.Same-Paragraf-Font-Size {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.Section3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #f7f9fb;
+
+}
+
+.Section3-Common-Box {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.Same-Header-Box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+.Section3-Main-List-Box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 50px;
+    grid-gap: 20px;
+
+}
+
+.Section3-List-Box {
+
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.Section3-List-Item {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Section3-List-Header {
+    font-size: 1.35714286em;
+    line-height: 1.68421053em;
+    font-weight: 600;
+}
+
+.Section3-List-Text {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0;
+    color: #777;
+    font-family: "Poppins", sans-serif;
+}
+
+.Section4-Text-Box {
+
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.Section4 {
+
+    width: 100%;
+}
+
+.Section4-Box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Section4-Common-Box {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.Section4-Photo-Rows {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.Section4-Photo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Section4-Photo-Hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.Section4-Photo-Hover:hover {
+    opacity: 0.8;
+}
+
+.Section4-Photo-Hover:hover .Box {
+    opacity: 1;
+    transition: all 0.8s ease;
+    transition-delay: 0.1s;
+}
+
+.Last-Iceland-Text {
+    display: flex;
+    flex-direction: column;
+}
+
+.Box {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.Section5 {
+    padding-bottom: 60px;
+    width: 100%;
+}
+
+.Section5-Header-Text-Box {
+    padding-top: 80px;
+    align-items: center;
+}
+
+.Section5-Container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+
+}
+
+.Section5-Icon-Text-Box {
+    display: flex;
+    gap: 30px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.Section5-Icons {
+    width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: solid 2px;
+}
+
+
+.Section5-Icons .fa {
+    font-size: 20px;
+}
+
+.Section5-Text {
+    padding-top: 10px;
+    line-height: 25px;
+}
+
+.Same-Color-Text {
+
+
+    color: #777;
+}
+
+.Section6 {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url("../assets/images/L.jpeg");
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+.Section6-Text-Box {
+
+    display: flex;
+    gap: 50px;
+}
+
+.Section6-Text-Row {
+    display: flex;
+
+    gap: 100px;
+}
+
+.Section6-Row-Item {
+    color: white;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.Section6-Row-Item .fa {
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.Section6-Number {
+    font-size: 50px;
+    line-height: 40px;
+}
+
+.Section6-White-Border {
+    width: 20px;
+    border: solid 1px;
+    border-bottom: white;
+}
+
+.Section6-Text {
+    font-size: 15px;
+    font-style: normal;
+    text-transform: none;
+    line-height: 1.7;
+}
+
+.End-Row-Item {
+    padding-top: 30px;
+}
+
+.Section7-Header-Text-Box {
+
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+
+.Section7 {
+    width: 100%;
+
+    background-color: #F7F9FB
+}
+
+.Section7-Post-Box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+
+    padding-bottom: 130px;
+}
+
+.Section7-Photo-Text-Common-Box {
+    border: 1px solid #dee2e6;
+}
+
+.Section7-Photo-Item {
+    width: 100%;
+}
+
+.Section7-Photo-Box {
+    position: relative;
+
+}
+
+.Section7-Photo-Link {
+    top: 7px;
+    right: 10px;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    background-color: #2250fc;
+    border-radius: 20px;
+    width: 80px;
+    height: 25px;
+    font-size: 13px;
+    padding: 4px;
+    text-align: center;
+    border-radius: 50px;
+
+
+
+}
+
+.Section7-Text-Box {
+    padding-left: 26px;
+    padding-right: 26px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.Section7-Date-Comment {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 7px;
+    padding-bottom: 10px;
+
+
+}
+
+.Section7-Date {
+
+    color: #c2c2c2;
+    font-size: 13px;
+}
+
+.Section7-Comments {
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 13px;
+    color: #c2c2c2;
+    cursor: pointer;
+
+}
+
+.Section7-Standart-Header {
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: -0.1px;
+    line-height: 23px;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.Standart-Link {
+    text-decoration: none;
+    color: #444;
+}
+
+.Standart-Link:hover {
+    color: #2250fc;
+}
+
+.Section7-Curabitur-Text {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 1.7;
+    letter-spacing: 0;
+    color: #777;
+    font-family: "Poppins", sans-serif;
+}
+
+.Section7-Read-More {
+    padding-top: 20px;
+}
+
+.Read-More-Link {
+    color: #484848;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding-top: 10px;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+
+.Read-More-Link:hover {
+    color: #2250fc;
+
+}
+
+.Left {
+    padding-left: 8px;
+}
+
+.Read-More-Link .fa {
+    padding-left: 5px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+}
+
+.Section8 {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.Common-Header-Text-Box {
+
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.Section8-Photo-Box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-bottom: 50px;
+  
+
+}
+
+.Section8-Photo {
+    width: 120px;
+
+}
+
+.Section9 {
+    background-color: #F7F9FB;
+    width: 100%;
+}
+
+.Section9-Photo-Row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    background-color: #F7F9FB
+}
+
+.Section9-Photo {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.Section9-Photo-Box {
+    border-radius: 10px;
+    border: solid 0.5px #dee2e6;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Section9-Photo-Header {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Section9-Text-Box {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.Section9-Worker-Name {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.Section9-Worker-Job {
+    font-size: 13px;
+    color: #bbb;
+    line-height: 18px;
+}
+
+.Section9-Text {
+    font-style: normal;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 1.7;
+    letter-spacing: 0;
+    color: #777;
+}
+
+.Section9-Icon-Common-Box {
+    display: flex;
+
+    gap: 5px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.Section9-Icon-Link-Box {
+    border: solid 1px grey;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.Section9-Icon-Link {
+    color: #4c5667;
+}
+
+.Section10 {
+    background-color: #F7F9FB;
+}
+
+.Section10-Box {
+    display: flex;
+    gap: 80px;
+    width: 100%;
+}
+
+.Section10-Column1-Box {
+    padding-top: 130px;
+
+
+
+}
+
+.Section10-Column1-Text-Box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.Section10-Column1-Header-Text {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.Section10-Column1-Text {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: none;
+    line-height: 1.7;
+    letter-spacing: 0;
+    color: #777;
+}
+
+.Section10-Purchase-Btn {
+    margin-top: 30px;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 4px;
+    position: relative;
+    background-color: #2250fc;
+    border: none;
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    transition: all 0.3s;
+    margin-bottom: 6px;
+    outline: none;
+    line-height: 14px;
+    cursor: pointer;
+}
+
+.Section10-Purchase-Btn:hover {
+    background-color: #007bff;
+}
+
+.Section10-Column2-Box {
+    display: flex;
+    gap: 100px;
+    padding-top: 130px;
+    padding-bottom: 70px;
+    padding-left: 50px;
+
+
+
+}
+
+.Section10-Column2-Text-Box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.Section10-Column2-Headers {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.Section10-Column2-Links {
+    text-decoration: none;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: none;
+    line-height: 1.7;
+    letter-spacing: 0;
+    color: #777;
+    color: #484848;
+}
+
+.Section10-Column2-Links:hover {
+    color: #2250fc;
+}
+
+.Footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eff1f4;
+}
+
+.Footer-Text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (max-width: 1200px) {
+
+    .Container {
+        max-width: 900px;
+    }
+
+    .Section1-Text-Box {
+        gap: 30px;
+    }
+
+    .Section1-Header-Text {
+        font-size: 68px;
+    }
+
+    .Section1-Say-Hello-Text {
+        font-size: 22px;
+        line-height: 35px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .Section3-Main-List-Box {
+
+        grid-gap: 30px;
+
+    }
+
+    .Same-Paragraf-Font-Size {
+        font-size: 1.25rem;
+        font-weight: 400;
+        line-height: 27px;
+    }
+
+    .Section5-Container {
+
+        grid-row-gap: 15px;
+
+    }
+
+    .Section5 {
+        padding-bottom: 100px;
+    }
+
+    .Section5-Icons {
+        width: 130px;
+        height: 45px;
+
+    }
+
+    .Section5-Header-Text {
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .Section6 {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .Section9-Header-Text {
+        font-size: 18px;
+    }
+
+    .Section10-Column2-Box {
+        gap: 40px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .Container {
+        max-width: 720px;
+    }
+
+    .Nav {
+        justify-content: center;
+    }
+
+    .Nav-List-Box {
+        display: none;
+    }
+
+    .Section1-Text-Box {
+        gap: 15px;
+    }
+
+    .Section1-Header-Text {
+        font-size: 40px;
+    }
+
+    .Section1-Say-Hello-Text {
+        line-height: 30px;
+        padding-left: 180px;
+        padding-right: 180px;
+        font-size: 18px;
+    }
+
+    .Same-Header-Font-Size {
+        font-size: 36px;
+    }
+
+    .Section3-List-Text {
+
+        line-height: 1.5;
+
+    }
+
+    .Section3-Main-List-Box {
+
+        grid-template-columns: repeat(1, 1fr);
+        padding-top: 20px;
+
+    }
+
+    .Section4-Photo-Rows {
+
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .Section5-Icon-Text-Box {
+
+        padding-top: 20px;
+    }
+
+    .Section5-Text {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+
+    .Section5-Container {
+
+        grid-template-columns: repeat(1, 1fr);
+
+
+    }
+
+    .Section5-Icons {
+        width: 46px;
+        height: 46px;
+    }
+
+    .Section6-Text-Row {
+
+        flex-direction: column;
+    }
+
+    .Section7-Post-Box {
+
+        grid-template-columns: repeat(2, 1fr);
+
+
+    }
+
+    .Section7-Curabitur-Text {
+        font-size: 1.09rem;
+    }
+
+    .Section9-Header-Text {
+        padding-left: 160px;
+        padding-right: 160px;
+        text-align: center;
+    }
+
+    .Section9-Photo-Row {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .Common-Header-Text-Box {
+
+
+        padding-bottom: 13px;
+    }
+
+    .Section10-Box {
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .Section10-Column2-Box {
+        flex-direction: column;
+    }
+
+    .Section10-Column2-Box {
+
+        gap: 40px;
+        padding-top: 20px;
+        padding-left: 0;
+
+
+
+    }
+
+}
+
+@media(max-width:768px) {
+
+    .Container {
+        max-width: 560px;
+    }
+
+    .Section1-Say-Hello-Text {
+        line-height: 30px;
+        padding-left: 150px;
+        padding-right: 150px;
+        font-size: 18px;
+    }
+
+    .Same-Blue-Border {
+        display: none;
+    }
+
+    .Section2-Text-Box {
+        text-align: center;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .Section2-Header-Text {
+
+        line-height: 50px;
+    }
+
+    .Section3 .Same-Paragraf-Font-Size {
+        font-size: 1.30rem;
+    }
+
+    .Section3-List-Text {
+
+        font-size: 1.07rem;
+    }
+
+    .Section4-Photo-Rows {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Section5 .Same-Paragraf-Font-Size {
+        font-size: 1.26rem;
+    }
+
+    .Section5-Icons {
+        width: 60px;
+        height: 45px;
+    }
+
+    .Section5-Text {
+        font-size: 17px;
+    }
+
+
+
+
+
+}
+
+@media(max-width:600px) {
+
+
+    .Container {
+        max-width: 440px;
+    }
+
+    .Section1-Header-Text {
+        font-size: 32px;
+    }
+
+    .Section1-Say-Hello-Text {
+        line-height: 26px;
+        padding-left: 60px;
+        padding-right: 60px;
+        font-size: 18px;
+    }
+
+    .Section2-Text-Box {
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .Section3 .Same-Paragraf-Font-Size {
+        font-size: 1.17rem;
+    }
+
+    .Section3-List-Text {
+
+        font-size: 0.92rem;
+    }
+
+    .Section5 .Same-Paragraf-Font-Size {
+        font-size: 1.17rem;
+    }
+
+    .Section5-Text {
+        font-size: 16px;
+    }
+
+    .Section5-Icons {
+        width: 80px;
+        height: 45px;
+    }
+
+    .Section7-Post-Box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .Section9-Header-Text {
+        padding-left: 80px;
+        padding-right: 80px;
+        text-align: center;
+    }
+
+    .Footer-Text {
+        font-size: 15px;
+        text-align: center;
+    }
+
+}
+
+@media(max-width:480px) {
+
+    .Container {
+        max-width: 360px;
+    }
+
+    .Section1-Header-Text {
+        font-size: 40px;
+        padding-left: 50px;
+        padding-right: 50px;
+
+    }
+
+
+    .Section1-Say-Hello-Text {
+        line-height: 26px;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 18px;
+    }
+
+    .Section2 .Same-Paragraf-Font-Size {
+        font-size: 35px;
+        line-height: 49px;
+    }
+
+    .Section2-Text-Box {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .Section2 .Same-Paragraf-Font-Size {
+        font-size: 17.3px;
+    }
+
+    .Section3-List-Header {
+        font-size: 17.5px;
+    }
+
+    .Section3-List-Text {
+        font-size: 13px;
+    }
+
+    .Same-Paragraf-Font-Size {
+        font-size: 17.5px;
+    }
+    .Section5 .Same-Paragraf-Font-Size{font-size: 16px;
+    }
+    .Section5-Icons {
+        width: 85px;
+        height: 40px;
+    }
+    .Section9-Header-Text {
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+    }
+
+}
+
+@media(max-width:400px) {
+
+    .Container {
+        max-width: 280px;
+    }
+
+    .Section1-Header-Text {
+        font-size: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
+    .Section2-Header-Text {
+        font-size: 40px;
+        line-height: 56px;
+    }
+   .Section9 .Same-Header-Font-Size{
+    text-align: center;
+   }
+
+
+
+}
